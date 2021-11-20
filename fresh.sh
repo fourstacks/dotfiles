@@ -40,7 +40,7 @@ mkdir $HOME/Code/React
 mkdir $HOME/Code/Other
 
 # Clone Github repositories
-./clone.sh
+#./clone.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
