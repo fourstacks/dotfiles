@@ -12,15 +12,12 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
-brew 'gnupg'
 brew 'grep'
 brew 'httpie'
 brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
@@ -49,31 +46,32 @@ brew 'yarn'
 
 # Apps
 cask '1password'
-cask 'caffeine'
+cask 'alfred'
+cask 'balsamiq-mockups'
 cask 'dbngin'
-cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'pastebot'
+cask 'iterm2'
+cask 'jetbrains-toolbox'
+cask 'microsoft-edge'
+cask 'notion'
 cask 'phpmon'
 cask 'phpstorm'
 cask 'ray'
-cask 'screenflow'
-cask 'signal'
+cask 'sizzy'
 cask 'slack'
+cask 'sourcetree'
+cask 'spotify'
+cask 'sublime-text'
 cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
-cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
 cask 'zoom'
@@ -92,11 +90,8 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
+mas 'Bear', id: 1091189122
 mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas 'Affinity Designer', id: 824171161
+mas 'Little Ipsum', id: 405772121
+mas 'Xcode', id: 497799835

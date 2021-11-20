@@ -1,4 +1,5 @@
 # Shortcuts
+alias aliases="subl $DOTFILES/aliases"
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadshell="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
@@ -10,33 +11,30 @@ alias c="clear"
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
-alias lara="sites && cd laravel/"
-alias docs="lara && cd docs/"
+alias code="cd $HOME/Code"
+alias lara="code && cd laravel/"
 
 # Laravel
-alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
-alias seed="php artisan db:seed"
+alias art="php artisan"
+alias vapor="./vendor/bin/vapor"
 
 # PHP
-alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias nukecomposer="rm -rf vendor/ composer.lock && composer i"
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
+alias unit="./vendor/bin/phpunit"
 
 # JS
-alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
-alias watch="npm run watch"
+alias nukenpm="rm -rf node_modules/ package-lock.json && npm install"
+alias watch="npx mix watch"
 
 # Docker
 alias docker-composer="docker-compose"
 
-# SQL Server
-alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
-
 # Git
-alias gst="git status"
+alias gs="git status"
 alias gb="git branch"
-alias gc="git checkout"
+alias gc="git commit -m"
+alias gco="git checkout"
 alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
 alias commit="git add . && git commit -m"
